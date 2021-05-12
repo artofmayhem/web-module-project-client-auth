@@ -12,8 +12,9 @@ style={{
   boxShadow: "0 0 2rem #FF00C8",
   textAlign: "center",
 }}
+
 >
- <p style={{margin: 'auto 2vw', fontSize: '10px'}}>2021 adidas America Inc.</p>
+ <p style={{margin: 'auto 2vw', fontSize: '14px', color: '#666'}}>2021 adidas America Inc.</p>
 <div
     className="d-flex flex-row"
     style={{ alignSelf: "end", margin: "0.5vh 2vw"}}

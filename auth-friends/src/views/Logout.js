@@ -15,7 +15,7 @@ export default function Logout() {
             className='d-flex flex-column justify-content-center align-items-center logout'
             style={{
                 margin: "0vh auto",
-                backgroundColor: 'black',
+                backgroundColor: 'transparent',
                 height: '100vh',
               }}
         >
@@ -29,7 +29,8 @@ export default function Logout() {
                 textDecoration: "none",
                 border: '.05rem solid white',
                 padding: '2rem 3rem',
-                boxShadow:'0 0 1.5rem white'
+                boxShadow:'0 0 1.5rem white',
+                backgroundColor: '#222'
               }}
             >Logout</Link>
 

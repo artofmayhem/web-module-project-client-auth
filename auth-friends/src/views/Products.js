@@ -4,7 +4,6 @@ import ProductCards from "./productcards";
 
 export default function Products() {
   const [products, setProducts] = useState([]);
-
   useEffect(() => {
     axiosWithAuth()
       .get("/products")
